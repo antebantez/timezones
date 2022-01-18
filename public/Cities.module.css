@@ -21,14 +21,17 @@
   padding-bottom: 30px;
 }
 
-.citiesRow1 {
+.city {
   display: flex;
-  justify-content: space-evenly;
-  padding: 25px;
+  cursor: pointer;
 }
 
-.citiesRow2 {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 25px;
+.cityName {
+  text-transform: uppercase;
+}
+
+.flagImage {
+  width: 25px;
+  margin: 15px;
+  margin-top: 0;
 }

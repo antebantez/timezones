@@ -4,52 +4,25 @@ import classes from "/public/Cities.module.css";
 import { Card } from "react-bootstrap";
 
 export default function Cities() {
-
   const [city, setCity] = useState([]);
 
   useEffect(async () => {
     setCity(await (await fetch("./json/cities.json")).json());
   }, []);
 
-  console.log(city);
-
   return (
     <div className={classes.card}>
       <Card className={classes.citiesCard} style={{ width: "60rem" }}>
-        <Card.Body className={classes.cardBody}>
-          <div className={classes.citiesRow1}>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-          </div>
-          <div className={classes.citiesRow2}>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-          </div>
-          <div className={classes.citiesRow1}>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-          </div>
-          <div className={classes.citiesRow2}>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-          </div>
-          <div className={classes.citiesRow1}>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-          </div>
-          <div className={classes.citiesRow2}>
-            <Card.Text as="h5">"City name"</Card.Text>
-            <Card.Text as="h5">"City name"</Card.Text>
-          </div>
-        </Card.Body>
+        {city.map(({ city, flagImage }) => (
+          <Card.Body className={classes.cardBody}>
+            <Card.Text>
+              <div className={classes.city} onClick="#">
+                <img className={classes.flagImage} src={flagImage} />
+                <p className={classes.cityName}>{city}</p>
+              </div>
+            </Card.Text>
+          </Card.Body>
+        ))}
       </Card>
     </div>
   );
