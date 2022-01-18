@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 50px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.citiesCard {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+}
+
+.cardBody {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.citiesRow1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.citiesRow2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
