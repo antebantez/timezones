@@ -1,222 +1,202 @@
 [
-{
-  "id":1,
-  "city":"Stockholm",
-  "country":"Sweden",
-  "UTC": 1,
-  "time_zone":"Europe/Stockholm",
-  "facts":"Stockholm är Sveriges huvudstad samt landets kulturella, politiska, mediala och ekonomiska centrum. Staden ligger vid Mälarens utlopp i Östersjön, på gränsen mellan landskapen Södermanland och Uppland. Staden är världens femte nordligaste huvudstad bland självständiga stater.", 
-  "image":"https://source.unsplash.com/random/640x360/?stockholm",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197564.png"
-},
-
-{
-  "id": 2,
-  "city": "Madrid",
-  "country": "Spain",
-  "UTC": 2,
-  "time_zone": "Europe/Madrid",
-  "facts": "Madrid uttal är Spaniens huvudstad och den största staden på Iberiska halvön. Med sina 3,2 miljoner invånare i kommunen, och 6 miljoner i storstadsområdet, är Madrid en av de folkrikaste städerna inom EU. Madrid är beläget på vänstra stranden av Manzanares, ett litet tillflöde till Tajos biflod Jarama.",
-  "image": "https://source.unsplash.com/random/640x360/?madrid",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197593.png"
-},
-
-{
-  "id": 3,
-  "city": "Auckland",
-  "country": "New Zealand",
-  "UTC": 13,
-  "time_zone": "Pacific/Auckland",
-  "facts": "Auckland är Nya Zeelands största storstadsområde med 1,4 miljoner invånare 2013, det motsvarar cirka 33,4% av hela Nya Zeelands befolkning. På maori heter staden Tāmaki Makaurau eller Ākarana. Den ligger 37 grader syd om ekvatorn på den nordvästra delen av Nordön.",
-  "image": "https://source.unsplash.com/random/640x360/?auckland",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197589.png"
-},
-
-
-{
-  "id": 4,
-  "city": "Bangkok",
-  "country": "Thailand",
-  "UTC": 7,
-  "time_zone": "Asia/Bangkok",
-  "facts": "Bangkok är Thailands huvudstad. Bangkok är en självständig kommun på ungefär samma administrativa nivå som landets provinser. Staden hade cirka 8,3 miljoner invånare vid folkräkningen 2010, med cirka 14,6 miljoner invånare i hela storstadsområdet.",
-  "image": "https://source.unsplash.com/random/640x360/?bangkok",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197452.png"
-},
-
-{
-  "id": 5,
-  "city": "New York",
-  "country": "USA",
-  "UTC": -5,
-  "time_zone": "US/Eastern",
-  "facts": "New York är USA:s mest folkrika stad med 8,2 miljoner invånare enligt den senaste folkräkningen och 19,6 miljoner invånare i storstadsområdet. New York är ansedd som en världsstad med ett starkt globalt inflytande inom ekonomi, massmedia, politik, utbildning, underhållning och mode.",
-  "image": "https://source.unsplash.com/random/640x360/?new_york",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197484.png"
-},
-
-{
-  "id": 6,
-  "city": "Mexico City",
-  "country": "Mexico",
-  "UTC": -6,
-  "time_zone": "America/Mexico_City",
-  "facts": "Mexico City, är Mexikos huvudstad. Det är det viktigaste ekonomiska, industriella och kulturella centret i landet, och den största staden med cirka 8,8 miljoner invånare 2009. Mexico Citys storstadsområde hade cirka 21,0 miljoner invånare år 2009, vilket gör det till ett av de folkrikaste i världen.",
-  "image": "https://source.unsplash.com/random/640x360/?mexico_city",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197397.png"
-},
-
-{
-  "id": 7,
-  "city": "Honolulu",
-  "country": "USA",
-  "UTC": -10,
-  "time_zone": "US/Hawaii",
-  "facts": "Honolulu är huvudstad och största stad i den amerikanska delstaten och ögruppen Hawaii, belägen på ön Oahu i Stilla havet. Staden har en yta av 222 kvadratkilometer. Befolkningen uppgår till 909 863 invånare. Honolulu betyder skyddad vik eller skyddad plats.",
-  "image": "https://source.unsplash.com/random/640x360/?honolulu",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197484.png"
-},
-
-{
-  "id": 8,
-  "city": "Shanghai",
-  "country": "China",
-  "UTC": 8,
-  "time_zone": "Asia/Shanghai",
-  "facts": "Shanghai är en megastad i Folkrepubliken Kina, belägen vid Yangtzes delta mot Östkinesiska havet. Shanghai är ett av de fyra storstadsområdena i Kina som är ställda direkt under landets centrala administration i huvudstaden Peking. Shanghai är en av Kinas och världens absolut största städer.",
-  "image": "https://source.unsplash.com/random/640x360/?shanghai",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197375.png"
-},
-
-{
-  "id": 9,
-  "city": "New Delhi",
-  "country": "India",
-  "UTC": 5,
-  "time_zone": "Asia/Kolkata",
-  "facts": "New Delhi är Indiens huvudstad och den administrativa huvudorten för unionsterritoriet National Capital Territory of Delhi. Trots sin betydelse är det en relativt liten stad, i direkt anslutning till den betydligt större staden Delhi. New Delhi är även huvudorten för ett distrikt med samma namn som staden.",
-  "image": "https://source.unsplash.com/random/640x360/?newdelhi",
-  "flagImage": "https://cdn-icons.flaticon.com/png/512/4628/premium/4628698.png?token=exp=1642584065~hmac=889abc355af89e1dc72a420f7b752269"
-},
-
-{
-  "id": 10,
-  "city": "Seoul",
-  "country": "South Korea",
-  "UTC": 9,
-  "time_zone": "Asia/Seoul",
-  "facts": "Seoul, är huvudstaden i Sydkorea. Seoul är, förutom Sydkoreas största stad, också en av världens folkrikaste städer med nästan 10,5 miljoner invånare i staden och 25 miljoner invånare i hela storstadsregionen. Det inkluderar städerna Seoul och dess hamnstad Incheon samt omgivande satellitstäder i Gyeonggiprovinsen.",
-  "image": "https://source.unsplash.com/random/640x360/?seoul",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197582.png"
-},
-
-{
-  "id": 11,
-  "city": "Dubai",
-  "country": "UAE",
-  "UTC": 4,
-  "time_zone": "Asia/Dubai",
-  "facts": "Dubai är den mest folkrika staden i Förenade Arabemiraten och huvudstaden i Emiratet Dubai. Staden grundades på 1700-talet som en liten fiskeby och växte snabbt i början av 2000-talet till en kosmopolitisk metropol med fokus på turism och gästfrihet. Dubai är ett av världens mest populära turistmål",
-  "image": "https://source.unsplash.com/random/640x360/?dubai",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/323/323301.png"
-},
-
-{
-  "id": 12,
-  "city": "London",
-  "country": "United Kingdom",
-  "UTC": 1,
-  "time_zone": "Europe/London",
-  "facts": "London är huvudstad i Storbritannien och i riksdelen England. Staden grundades under namnet Londinium som huvudstad i den romerska provinsen Britannia, för vilken den också utgjorde hamnstad vid floden Themsen.",
-  "image": "https://source.unsplash.com/random/640x360/?London",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197374.png"
-},
-
-{
-  "id": 13,
-  "city": "Warsaw",
-  "country": "Poland",
-  "UTC": 1,
-  "time_zone": "Europe/Warsaw",
-  "facts": "Warszawa är Polens huvudstad och den största staden i landet, med 1,7 miljoner invånare i själva staden och cirka 3,2 miljoner invånare i storstadsområdet inklusive förorter. Före andra världskriget kallades staden Warschau, ibland med stavningen Warsau. Historiskt i svenskan har också Varsjava använts.",
-  "image": "https://source.unsplash.com/random/640x360/?Warsaw",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197529.png"
-},
-
-{
-  "id": 14,
-  "city": "Moscow",
-  "country": "Russia",
-  "UTC": 3,
-  "time_zone": "Europe/Moscow",
-  "facts": "Moskva är Rysslands huvudstad och största stad, belägen vid Moskvafloden i den centrala delen av europeiska Ryssland. Det är även Europas folkrikaste stad med 12,2 miljoner invånare inom det federala stadsområdet. Hela storstadsområdet omfattar ytterligare två till fyra miljoner invånare, beroende på definition",
-  "image": "https://source.unsplash.com/random/640x360/?moscow",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197408.png"
-},
-
-{
-  "id": 15,
-  "city": "Dublin",
-  "country": "Ireland",
-  "UTC": 1,
-  "time_zone": "Europe/Dublin",
-  "facts": "Dublin är den största staden på Irland och huvudstad i Republiken Irland. Den är belägen nära mittpunkten på Irlands östkust, vid mynningen av floden Liffey och i mitten av grevskapet Dublin. Dublin grundades som en vikingabosättning och har varit Irlands viktigaste stad sedan medeltiden.",
-  "image": "https://source.unsplash.com/random/640x360/?Dublin",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197567.png"
-},
-
-{
-  "id": 16,
-  "city": "Vancouver",
-  "country": "Canada",
-  "UTC": -8,
-  "time_zone": "America/Vancouver",
-  "facts": "Vancouver är en kuststad belägen i regionen Lower Mainland i British Columbia i det sydvästra hörnet av Kanada. Staden har fått sitt namn från den brittiske kaptenen George Vancouver, som utforskade området på 1790-talet.",
-  "image": "https://source.unsplash.com/random/640x360/?Vancouver",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197430.png"
-},
-
-{
-  "id": 17,
-  "city": "Lisboa",
-  "country": "Portugal",
-  "UTC": 0,
-  "time_zone": "Europe/Lisbon",
-  "facts": "Lissabon, portugisiska Lisboa, är huvudstad i Portugal. Lissabon har ungefär en halv miljon invånare i den centrala kommunen, och 2,8 miljoner invånare i hela storstadsområdet. Lissabon är också centralort i Lissabons kommun och residensstad i Lissabons distrikt.",
-  "image": "https://source.unsplash.com/random/640x360/?Lisboa",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/3909/3909361.png"
-},
-
-{
-  "id": 18,
-  "city": "Rome",
-  "country": "Italy",
-  "UTC": 1,
-  "time_zone": "Europe/Rome",
-  "facts": "Rom är huvudstad i Italien sedan 1871 och var även huvudstad i det romerska riket under antiken. Rom är huvudstad i regionen Lazio och huvudort och en kommun i storstadsregionen Rom, innan 2015 provinsen Rom. I Rom ligger även Vatikanstaten, centrum för Romersk-katolska kyrkan.",
-  "image": "https://source.unsplash.com/random/640x360/?Rome",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/323/323325.png"
-},
-
-{
-  "id": 19,
-  "city": "Rio de Janeiro",
-  "country": "Brazil",
-  "UTC": -4,
-  "time_zone": "Brazil/West",
-  "facts": "Rio de Janeiro eller bara Rio är en stad i Brasilien och är huvudstad i delstaten med samma namn. Rio är Brasiliens näst största stad. Folkmängden uppgår till cirka 6,5 miljoner invånare, med totalt 12,3 miljoner i hela storstadsområdet. Rio de Janeiro ligger vid Brasiliens sydöstra kust.",
-  "image": "https://source.unsplash.com/random/640x360/?Riodejaneiro",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197386.png"
-},
-
-{
-  "id": 20,
-  "city": "Nariño",
-  "country": "Colombia",
-  "UTC": -5,
-  "time_zone": "America/Bogota",
-  "facts": "Nariño är ett av Colombias departement och är belägen i den sydvästra delen av landet, gränsande till Ecuador i söder och Stilla havet i väster. Administrativ huvudort och största stad är Pasto. Andra stora städer är Ipiales och Tumaco. Departementet skapades den 6 augusti 1904.",
-  "image": "https://source.unsplash.com/random/640x360/?Narino",
-  "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197575.png"
-}
+  {
+    "id": 1,
+    "city": "Stockholm",
+    "country": "Sweden",
+    "UTC": 1,
+    "time_zone": "Europe/Stockholm",
+    "facts": "Stockholm är Sveriges huvudstad samt landets kulturella, politiska, mediala och ekonomiska centrum. Staden ligger vid Mälarens utlopp i Östersjön, på gränsen mellan landskapen Södermanland och Uppland. Staden är världens femte nordligaste huvudstad bland självständiga stater.",
+    "image": "https://source.unsplash.com/random/640x360/?stockholm",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197564.png"
+  },
+  {
+    "id": 2,
+    "city": "Madrid",
+    "country": "Spain",
+    "UTC": 2,
+    "time_zone": "Europe/Madrid",
+    "facts": "Madrid uttal är Spaniens huvudstad och den största staden på Iberiska halvön. Med sina 3,2 miljoner invånare i kommunen, och 6 miljoner i storstadsområdet, är Madrid en av de folkrikaste städerna inom EU. Madrid är beläget på vänstra stranden av Manzanares, ett litet tillflöde till Tajos biflod Jarama.",
+    "image": "https://source.unsplash.com/random/640x360/?madrid",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197593.png"
+  },
+  {
+    "id": 3,
+    "city": "Auckland",
+    "country": "New Zealand",
+    "UTC": 13,
+    "time_zone": "Pacific/Auckland",
+    "facts": "Auckland är Nya Zeelands största storstadsområde med 1,4 miljoner invånare 2013, det motsvarar cirka 33,4% av hela Nya Zeelands befolkning. På maori heter staden Tāmaki Makaurau eller Ākarana. Den ligger 37 grader syd om ekvatorn på den nordvästra delen av Nordön.",
+    "image": "https://source.unsplash.com/random/640x360/?auckland",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197589.png"
+  },
+  {
+    "id": 4,
+    "city": "Bangkok",
+    "country": "Thailand",
+    "UTC": 7,
+    "time_zone": "Asia/Bangkok",
+    "facts": "Bangkok är Thailands huvudstad. Bangkok är en självständig kommun på ungefär samma administrativa nivå som landets provinser. Staden hade cirka 8,3 miljoner invånare vid folkräkningen 2010, med cirka 14,6 miljoner invånare i hela storstadsområdet.",
+    "image": "https://source.unsplash.com/random/640x360/?bangkok",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197452.png"
+  },
+  {
+    "id": 5,
+    "city": "New York",
+    "country": "USA",
+    "UTC": -5,
+    "time_zone": "US/Eastern",
+    "facts": "New York är USA:s mest folkrika stad med 8,2 miljoner invånare enligt den senaste folkräkningen och 19,6 miljoner invånare i storstadsområdet. New York är ansedd som en världsstad med ett starkt globalt inflytande inom ekonomi, massmedia, politik, utbildning, underhållning och mode.",
+    "image": "https://source.unsplash.com/random/640x360/?new+york",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197484.png"
+  },
+  {
+    "id": 6,
+    "city": "Mexico City",
+    "country": "Mexico",
+    "UTC": -6,
+    "time_zone": "America/Mexico_City",
+    "facts": "Mexico City, är Mexikos huvudstad. Det är det viktigaste ekonomiska, industriella och kulturella centret i landet, och den största staden med cirka 8,8 miljoner invånare 2009. Mexico Citys storstadsområde hade cirka 21,0 miljoner invånare år 2009, vilket gör det till ett av de folkrikaste i världen.",
+    "image": "https://source.unsplash.com/random/640x360/?mexico+city",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197397.png"
+  },
+  {
+    "id": 7,
+    "city": "Honolulu",
+    "country": "USA",
+    "UTC": -10,
+    "time_zone": "US/Hawaii",
+    "facts": "Honolulu är huvudstad och största stad i den amerikanska delstaten och ögruppen Hawaii, belägen på ön Oahu i Stilla havet. Staden har en yta av 222 kvadratkilometer. Befolkningen uppgår till 909 863 invånare. Honolulu betyder skyddad vik eller skyddad plats.",
+    "image": "https://source.unsplash.com/random/640x360/?honolulu",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197484.png"
+  },
+  {
+    "id": 8,
+    "city": "Shanghai",
+    "country": "China",
+    "UTC": 8,
+    "time_zone": "Asia/Shanghai",
+    "facts": "Shanghai är en megastad i Folkrepubliken Kina, belägen vid Yangtzes delta mot Östkinesiska havet. Shanghai är ett av de fyra storstadsområdena i Kina som är ställda direkt under landets centrala administration i huvudstaden Peking. Shanghai är en av Kinas och världens absolut största städer.",
+    "image": "https://source.unsplash.com/random/640x360/?shanghai",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197375.png"
+  },
+  {
+    "id": 9,
+    "city": "New Delhi",
+    "country": "India",
+    "UTC": 5,
+    "time_zone": "Asia/Kolkata",
+    "facts": "New Delhi är Indiens huvudstad och den administrativa huvudorten för unionsterritoriet National Capital Territory of Delhi. Trots sin betydelse är det en relativt liten stad, i direkt anslutning till den betydligt större staden Delhi. New Delhi är även huvudorten för ett distrikt med samma namn som staden.",
+    "image": "https://source.unsplash.com/random/640x360/?new+delhi",
+    "flagImage": "https://cdn-icons.flaticon.com/png/512/4628/premium/4628698.png?token=exp=1642584065~hmac=889abc355af89e1dc72a420f7b752269"
+  },
+  {
+    "id": 10,
+    "city": "Seoul",
+    "country": "South Korea",
+    "UTC": 9,
+    "time_zone": "Asia/Seoul",
+    "facts": "Seoul, är huvudstaden i Sydkorea. Seoul är, förutom Sydkoreas största stad, också en av världens folkrikaste städer med nästan 10,5 miljoner invånare i staden och 25 miljoner invånare i hela storstadsregionen. Det inkluderar städerna Seoul och dess hamnstad Incheon samt omgivande satellitstäder i Gyeonggiprovinsen.",
+    "image": "https://source.unsplash.com/random/640x360/?seoul",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197582.png"
+  },
+  {
+    "id": 11,
+    "city": "Dubai",
+    "country": "UAE",
+    "UTC": 4,
+    "time_zone": "Asia/Dubai",
+    "facts": "Dubai är den mest folkrika staden i Förenade Arabemiraten och huvudstaden i Emiratet Dubai. Staden grundades på 1700-talet som en liten fiskeby och växte snabbt i början av 2000-talet till en kosmopolitisk metropol med fokus på turism och gästfrihet. Dubai är ett av världens mest populära turistmål",
+    "image": "https://source.unsplash.com/random/640x360/?dubai",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/323/323301.png"
+  },
+  {
+    "id": 12,
+    "city": "London",
+    "country": "United Kingdom",
+    "UTC": 1,
+    "time_zone": "Europe/London",
+    "facts": "London är huvudstad i Storbritannien och i riksdelen England. Staden grundades under namnet Londinium som huvudstad i den romerska provinsen Britannia, för vilken den också utgjorde hamnstad vid floden Themsen.",
+    "image": "https://source.unsplash.com/random/640x360/?London",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197374.png"
+  },
+  {
+    "id": 13,
+    "city": "Warsaw",
+    "country": "Poland",
+    "UTC": 1,
+    "time_zone": "Europe/Warsaw",
+    "facts": "Warszawa är Polens huvudstad och den största staden i landet, med 1,7 miljoner invånare i själva staden och cirka 3,2 miljoner invånare i storstadsområdet inklusive förorter. Före andra världskriget kallades staden Warschau, ibland med stavningen Warsau. Historiskt i svenskan har också Varsjava använts.",
+    "image": "https://source.unsplash.com/random/640x360/?Warsaw",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197529.png"
+  },
+  {
+    "id": 14,
+    "city": "Moscow",
+    "country": "Russia",
+    "UTC": 3,
+    "time_zone": "Europe/Moscow",
+    "facts": "Moskva är Rysslands huvudstad och största stad, belägen vid Moskvafloden i den centrala delen av europeiska Ryssland. Det är även Europas folkrikaste stad med 12,2 miljoner invånare inom det federala stadsområdet. Hela storstadsområdet omfattar ytterligare två till fyra miljoner invånare, beroende på definition",
+    "image": "https://source.unsplash.com/random/640x360/?moscow",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197408.png"
+  },
+  {
+    "id": 15,
+    "city": "Dublin",
+    "country": "Ireland",
+    "UTC": 1,
+    "time_zone": "Europe/Dublin",
+    "facts": "Dublin är den största staden på Irland och huvudstad i Republiken Irland. Den är belägen nära mittpunkten på Irlands östkust, vid mynningen av floden Liffey och i mitten av grevskapet Dublin. Dublin grundades som en vikingabosättning och har varit Irlands viktigaste stad sedan medeltiden.",
+    "image": "https://source.unsplash.com/random/640x360/?Dublin",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197567.png"
+  },
+  {
+    "id": 16,
+    "city": "Vancouver",
+    "country": "Canada",
+    "UTC": -8,
+    "time_zone": "America/Vancouver",
+    "facts": "Vancouver är en kuststad belägen i regionen Lower Mainland i British Columbia i det sydvästra hörnet av Kanada. Staden har fått sitt namn från den brittiske kaptenen George Vancouver, som utforskade området på 1790-talet.",
+    "image": "https://source.unsplash.com/random/640x360/?Vancouver",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197430.png"
+  },
+  {
+    "id": 17,
+    "city": "Lisboa",
+    "country": "Portugal",
+    "UTC": 0,
+    "time_zone": "Europe/Lisbon",
+    "facts": "Lissabon, portugisiska Lisboa, är huvudstad i Portugal. Lissabon har ungefär en halv miljon invånare i den centrala kommunen, och 2,8 miljoner invånare i hela storstadsområdet. Lissabon är också centralort i Lissabons kommun och residensstad i Lissabons distrikt.",
+    "image": "https://source.unsplash.com/random/640x360/?Lisboa",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/3909/3909361.png"
+  },
+  {
+    "id": 18,
+    "city": "Rome",
+    "country": "Italy",
+    "UTC": 1,
+    "time_zone": "Europe/Rome",
+    "facts": "Rom är huvudstad i Italien sedan 1871 och var även huvudstad i det romerska riket under antiken. Rom är huvudstad i regionen Lazio och huvudort och en kommun i storstadsregionen Rom, innan 2015 provinsen Rom. I Rom ligger även Vatikanstaten, centrum för Romersk-katolska kyrkan.",
+    "image": "https://source.unsplash.com/random/640x360/?Rome",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/323/323325.png"
+  },
+  {
+    "id": 19,
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "UTC": -4,
+    "time_zone": "Brazil/West",
+    "facts": "Rio de Janeiro eller bara Rio är en stad i Brasilien och är huvudstad i delstaten med samma namn. Rio är Brasiliens näst största stad. Folkmängden uppgår till cirka 6,5 miljoner invånare, med totalt 12,3 miljoner i hela storstadsområdet. Rio de Janeiro ligger vid Brasiliens sydöstra kust.",
+    "image": "https://source.unsplash.com/random/640x360/?Riodejaneiro",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197386.png"
+  },
+  {
+    "id": 20,
+    "city": "Nariño",
+    "country": "Colombia",
+    "UTC": -5,
+    "time_zone": "America/Bogota",
+    "facts": "Nariño är ett av Colombias departement och är belägen i den sydvästra delen av landet, gränsande till Ecuador i söder och Stilla havet i väster. Administrativ huvudort och största stad är Pasto. Andra stora städer är Ipiales och Tumaco. Departementet skapades den 6 augusti 1904.",
+    "image": "https://source.unsplash.com/random/640x360/?Narino",
+    "flagImage": "https://cdn-icons-png.flaticon.com/512/197/197575.png"
+  }
 ]
