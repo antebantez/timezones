@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   font-family: "Roboto", sans-serif;
   margin: 10rem auto;
   width: 90%;
@@ -12,22 +11,29 @@
 }
 
 .citiesCard {
+  justify-content: space-evenly;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .row {
-  display: flex;
   padding: 10px;
+  color: white;
 }
 
-.cardBody {
+/* .cardBody {
   padding-top: 30px;
   padding-bottom: 30px;
-}
+} */
 
 .city {
   display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .cityName {
