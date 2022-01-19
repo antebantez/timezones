@@ -37,6 +37,10 @@
   cursor: pointer;
 }
 
+.cityName:hover {
+  color: rgb(179, 179, 179);
+}
+
 .flagImage {
   width: 25px;
   margin: 15px;
