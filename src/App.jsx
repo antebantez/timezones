@@ -7,6 +7,7 @@ import Cities from "./pages/Cities";
 import CityPage from "./pages/CityPage";
 import MyTime from "./pages/MyTime";
 import MissingPage from "./pages/MissingPage";
+import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/*" element={<MissingPage />} />
           <Route path="/cities/*" element={<MissingPage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </main>
   );
