@@ -13,16 +13,56 @@ export default function Cities() {
   return (
     <div className={classes.card}>
       <Card className={classes.citiesCard} style={{ width: "60rem" }}>
-        {city.map(({ city, flagImage }) => (
-          <Card.Body className={classes.cardBody}>
-            <Card.Text>
-              <div className={classes.city} onClick="#">
+        <div className={classes.row}>
+          {city.slice(0, 4).map(({ city, flagImage, id }) => (
+            <Card.Body key={id} className={classes.cardBody}>
+              <Card.Text className={classes.city} onClick="#">
                 <img className={classes.flagImage} src={flagImage} />
                 <p className={classes.cityName}>{city}</p>
-              </div>
-            </Card.Text>
-          </Card.Body>
-        ))}
+              </Card.Text>
+            </Card.Body>
+          ))}
+        </div>
+        <div className={classes.row}>
+          {city.slice(4, 8).map(({ city, flagImage, id }) => (
+            <Card.Body key={id} className={classes.cardBody}>
+              <Card.Text className={classes.city} onClick="#">
+                <img className={classes.flagImage} src={flagImage} />
+                <p className={classes.cityName}>{city}</p>
+              </Card.Text>
+            </Card.Body>
+          ))}
+        </div>
+        <div className={classes.row}>
+          {city.slice(8, 12).map(({ city, flagImage, id }) => (
+            <Card.Body key={id} className={classes.cardBody}>
+              <Card.Text className={classes.city} onClick="#">
+                <img className={classes.flagImage} src={flagImage} />
+                <p className={classes.cityName}>{city}</p>
+              </Card.Text>
+            </Card.Body>
+          ))}
+        </div>
+        <div className={classes.row}>
+          {city.slice(12, 16).map(({ city, flagImage, id }) => (
+            <Card.Body key={id} className={classes.cardBody}>
+              <Card.Text className={classes.city} onClick="#">
+                <img className={classes.flagImage} src={flagImage} />
+                <p className={classes.cityName}>{city}</p>
+              </Card.Text>
+            </Card.Body>
+          ))}
+        </div>
+        <div className={classes.row}>
+          {city.slice(16, 20).map(({ city, flagImage, id }) => (
+            <Card.Body key={id} className={classes.cardBody}>
+              <Card.Text className={classes.city} onClick="#">
+                <img className={classes.flagImage} src={flagImage} />
+                <p className={classes.cityName}>{city}</p>
+              </Card.Text>
+            </Card.Body>
+          ))}
+        </div>
       </Card>
     </div>
   );
