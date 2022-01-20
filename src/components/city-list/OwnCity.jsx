@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Form from 'react-bootstrap/Form';
 import { Button } from 'react-bootstrap';
 
-
+// Ett försökt till att spara till i localStorage
 export default function OwnCity() {
   const [ownCity, setownCity] = useState([])
 
@@ -14,6 +14,7 @@ export default function OwnCity() {
   };
 
   return (
+    // user input plus knapp
     <div className="input-field mb-3">
 
 
@@ -25,8 +26,8 @@ export default function OwnCity() {
         id='timeZone' type="text" placeholder="Time Zone" value={localStorage.getItem('timeZone')}
       ></Form.Control>
 
-
-      <Button onClick={clickEvent, setZone} variant="primary"> Add to list</Button>
+      {/* Ett försök till att spara user input på onClick */}
+      <Button onClick={clickEvent, setZone, setownCity} variant="primary"> Add to list</Button>
     </div>
   )
 
