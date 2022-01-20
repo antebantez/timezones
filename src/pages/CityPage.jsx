@@ -1,5 +1,8 @@
 import classes from "/public/CityPage.module.css";
 
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 export default function CityPage(props) {
   let { list, goToCityList } = props;
   let { id, city, country, UTC, time_zone, facts, image } = list;

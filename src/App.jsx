@@ -17,7 +17,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cities" element={<Cities />} />
-          <Route path="/cities/:city" element={<CityPage />} />
           <Route path="/my-time" element={<MyTime />} />
           <Route path="/*" element={<MissingPage />} />
           <Route path="/cities/*" element={<MissingPage />} />
