@@ -1,6 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+//importing connection to main sass which has all the design imports
+import './sass/main.scss';
+
+//Importing all the pages connecting to the website
 import Header from "./Header";
 import HomePage from "./pages/HomePage";
 import Cities from "./pages/Cities";
