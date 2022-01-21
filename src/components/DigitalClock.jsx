@@ -11,7 +11,15 @@ function Clock() {
   }, []);
 
   return (
-    <div style={{ fontSize: "80px", fontWeight: "bold", margin: "60px" }}>
+    <div
+      style={{
+        fontSize: "5vw",
+        fontWeight: "bold",
+        margin: "40px",
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        borderRadius: "15px",
+      }}
+    >
       {digitalClockState}
     </div>
   );
