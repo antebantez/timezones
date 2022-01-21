@@ -19,7 +19,7 @@ export default function Cities() {
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-sm-12 col-xs-12 text-light text-center">
+          <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 col-sm-12 col-xs-12 text-light text-center">
             <DigitalClock />
           </div>
         </div>
