@@ -37,7 +37,7 @@ export default function Cities() {
       <div className={classes.card}>
         <Card className={classes.citiesCard} style={{ width: "60rem" }}>
           {/* Shows the list of available cities */}
-          <Table borderless responsive>
+          <Table borderless responsive="md">
             <tbody>
               <tr className={classes.row}>
                 {/* outputs a specific amount of city names */}
