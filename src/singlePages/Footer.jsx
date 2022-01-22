@@ -1,5 +1,5 @@
 import React from 'react';
-import Quotes from './components/quotes'
+import Quotes from '../components/quotes'
 
 import classes from "/public/Footer.module.css";
 
