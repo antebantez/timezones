@@ -9,10 +9,31 @@ export default function CityPage(props) {
 
   return (
     <div key={id} className={classes.cityDetails}>
-      <h1>{city}</h1>
-      <button className={classes.back} onClick={() => goToCityList(0)}>
+      <Row>
+      <Col>
+        <h1>{city}</h1>
+        </Col>
+        <Col>
+          <div>
+            <p>{time_zone} {UTC} </p>
+          </div>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col>
+          <p>{facts}</p>
+        </Col>
+        <Col>
+          <img src={image} />
+        </Col>
+      </Row>
+
+      <Row>
+        <button className={classes.back} onClick={() => goToCityList(0)}>
         Back
-      </button>
+        </button>
+      </Row>
     </div>
   );
 }

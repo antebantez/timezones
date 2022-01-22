@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import { Navbar, Container, Nav, Col } from './utilities/components-bootstrap';
 
 export default function Header() {
-  return (
+  return ( <header>
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Col>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
         </Col>
         <Col>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -22,5 +22,5 @@ export default function Header() {
           </Col>
     </Container>
   </Navbar>
-  );
+  </header>);
 }
