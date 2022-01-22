@@ -10,7 +10,7 @@ export default function quotes() {
     const interval = setInterval(() => {
        const randomIndex = Math.floor(Math.random() * QuotesData.length - 1);
       setQuote(QuotesData[randomIndex].quote);
-    }, 10000);
+    }, 20000);
   }, []);
 
   return (
