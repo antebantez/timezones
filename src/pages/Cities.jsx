@@ -8,7 +8,7 @@ import ListOfCities from "../components/ListOfCities";
 import CityPage from "./CityPage";
 
 // Imports for bootstrap
-import { Card, Table } from "../utilities/components-bootstrap";
+import { Card, Table, Container } from "../utilities/components-bootstrap";
 
 export default function Cities() {
   const [city, setCity] = useState([]);
@@ -83,14 +83,16 @@ export default function Cities() {
 
           {/* Shows a more detailed page for the selected city */}
           <div>
-            {detailId && (
-              <CityPage
-                {...{
-                  list: city.find((x) => x.id === detailId),
-                  goToCityList,
-                }}
-              />
-            )}
+            <Container>
+              {detailId && (
+                <CityPage
+                  {...{
+                    list: city.find((x) => x.id === detailId),
+                    goToCityList,
+                  }}
+                />
+              )}
+            </Container>
           </div>
         </Card>
       </div>

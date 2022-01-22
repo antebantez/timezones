@@ -1,13 +1,12 @@
 import classes from "/public/CityPage.module.css";
 
-import { Row, Col, Container } from "../utilities/components-bootstrap";
+import { Row, Col } from "../utilities/components-bootstrap";
 
 export default function CityPage(props) {
   let { list, goToCityList } = props;
   let { id, city, country, UTC, time_zone, facts, image } = list;
 
   return (
-    <Container>
       <div key={id} className={classes.cityDetails}>
         <Row>
           <Col>
@@ -38,6 +37,5 @@ export default function CityPage(props) {
           </button>
         </Row>
       </div>
-    </Container>
   );
 }
