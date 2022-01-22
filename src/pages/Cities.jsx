@@ -8,9 +8,7 @@ import ListOfCities from "../components/ListOfCities";
 import CityPage from "./CityPage";
 
 // Imports for bootstrap
-import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
-import Table from "react-bootstrap/Table";
+import { Card, Container, Table } from "../utilities/components-bootstrap";
 
 export default function Cities() {
   const [city, setCity] = useState([]);
@@ -34,7 +32,7 @@ export default function Cities() {
 
   return (
     <>
-      <div className={classes.card}>
+      <div className={classes.cardCities}>
         <Card className={classes.citiesCard} style={{ width: "60rem" }}>
           {/* Shows the list of available cities */}
           <Table borderless responsive="md">

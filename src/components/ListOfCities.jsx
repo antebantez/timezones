@@ -2,7 +2,7 @@
 import classes from "/public/Cities.module.css";
 
 // Imports for bootstrap
-import Card from "react-bootstrap/Card";
+import { Card } from "../utilities/components-bootstrap";
 
 export default function ListOfCities(props) {
   let { list, goToDetail } = props;

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.card {
+.cardCities {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,14 +12,9 @@
 
 .citiesCard {
   justify-content: space-evenly;
-  background-color: rgba(0, 0, 0, 0.7);
-  border: 2px solid rgba(243, 45, 243, 0.274);
-  border-radius: 25px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  padding-left: 30px;
+  border-radius: 20px;
+  padding: 30px;
+  padding-bottom: 0;
 }
 
 .row {
