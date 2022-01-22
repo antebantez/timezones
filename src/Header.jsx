@@ -5,10 +5,10 @@ import { Navbar, Container, Nav, Col } from './utilities/components-bootstrap';
 
 export default function Header() {
   return ( <header>
-  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
         <Col>
-          <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand className="head-title" href="/">Time-Zones</Navbar.Brand>
         </Col>
         <Col>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
