@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { Navbar, Container, Nav, Col } from './utilities/components-bootstrap';
+import { Navbar, Container, Nav, Col } from '../utilities/components-bootstrap';
 
 export default function Header() {
   return ( <header>

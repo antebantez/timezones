@@ -5,13 +5,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './sass/main.scss';
 
 //Importing all the pages connecting to the website
-import Header from "./Header";
+import Header from "./singlePages/Header";
 import HomePage from "./pages/HomePage";
 import Cities from "./pages/Cities";
 import CityPage from "./pages/CityPage";
 import MyTime from "./pages/MyTime";
-import MissingPage from "./pages/MissingPage";
-import Footer from "./Footer";
+import MissingPage from "./singlePages/MissingPage";
+import Footer from "./singlePages/Footer";
 
 export default function App() {
   return (
