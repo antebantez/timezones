@@ -1,24 +1,25 @@
+import DigitalClock from "../components/DigitalClock";
 import classes from "/public/HomePage.module.css";
 import { Card } from "react-bootstrap";
-import DigitalClock from "../components/DigitalClock";
+import AnalogClock from "../components/AnalogClock";
+import Calendar from "react-calendar";
+import "react-calendar/dist/Calendar.css";
 
 export default function Cities() {
   return (
-    <div className="container" style={{ marginTop: "10%" }}>
+    <div className="container mt-5">
       <Card className={classes.backgroundCard}>
-        <div className="row">
-          <div
-            className="col-lg-5  col-md-5 bg-white "
-            style={{ height: "30vh" }}
-          ></div>
-          <div className="col-lg-2"></div>
-          <div
-            className="col-lg-5 col-md-5 bg-secondary "
-            style={{ height: "30vh" }}
-          ></div>
+        <div className="row justify-content-center gap-5">
+          <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 rounded text-white p-3 l-3">
+            <AnalogClock />
+          </div>
+
+          <div className="col-lg-4 col-md-12 ">
+            <Calendar />
+          </div>
         </div>
-        <div className="row">
-          <div className="col-12 text-white text-center">
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-12 col-sm-12 col-xs-12 col-sm-12 col-xs-12 text-light text-center">
             <DigitalClock />
           </div>
         </div>

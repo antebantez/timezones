@@ -1,13 +1,17 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Header from "./Header";
+//importing connection to main sass which has all the design imports
+import './sass/main.scss';
+
+//Importing all the pages connecting to the website
+import Header from "./singlePages/Header";
 import HomePage from "./pages/HomePage";
 import Cities from "./pages/Cities";
 import CityPage from "./pages/CityPage";
 import MyTime from "./pages/MyTime";
-import MissingPage from "./pages/MissingPage";
-import Footer from "./Footer";
+import MissingPage from "./singlePages/MissingPage";
+import Footer from "./singlePages/Footer";
 
 export default function App() {
   return (
@@ -17,7 +21,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cities" element={<Cities />} />
-          <Route path="/cities/:city" element={<CityPage />} />
           <Route path="/my-time" element={<MyTime />} />
           <Route path="/*" element={<MissingPage />} />
           <Route path="/cities/*" element={<MissingPage />} />

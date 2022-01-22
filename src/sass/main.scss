@@ -1,0 +1,12 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import './load-and-modified.scss';
+
+//style for body
+@import './body-styling.scss';
+
+//style for Card (main container with the content)
+@import './card-styling.scss';
+
+//style for header
+@import './header-styling.scss';
