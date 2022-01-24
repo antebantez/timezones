@@ -11,7 +11,7 @@ export default function Header() {
           <Col>
             <img src={Logo} height={"100vh"} />
             <Navbar.Brand className="head-title" href="/">
-              React TimeZone
+              &nbsp;React TimeZone
             </Navbar.Brand>
           </Col>
           <Col>
