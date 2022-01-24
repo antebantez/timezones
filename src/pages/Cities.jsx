@@ -83,7 +83,7 @@ export default function Cities() {
 
           {/* Shows a more detailed page for the selected city */}
           <div>
-            <Container>
+            <Container className={classes.container}>
               {detailId && (
                 <CityPage
                   {...{
