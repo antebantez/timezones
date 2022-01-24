@@ -8,62 +8,41 @@ import { Row, Card, Col, Button, Container } from "../../utilities/components-bo
 
 // Ett försökt till att spara till i localStorage
 export default function OwnCity() {
-  const [ownCity, setownCity] = useState([])
-
-  const [zone, setZone] = useState([])
-  const clickEvent = (e) => {
-    setownCity, setZone
-  };
+  const [emptyCity, setEmptyCity] = useState();
+  const [emptyTimeZone, setEmptyTimeZone] = useState();
 
 
 
 
-  function resetForm() {
 
-    changeFormValues({ ...emptyFormValues });
-
-  }
 
   return (
     <Container>
 
       <Row>
         <Col>
-          <Card>
+          <Card className='p-5'>
             <div className="input-field mb-3">
 
 
-              <Form.Control
-                id='cityName' type="text" style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }} placeholder="City" value={localStorage.getItem('cityName')}
+              <Form.Control className="input-field mb-3"
+                id='cityName' type="text" style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }} placeholder="City" value={emptyCity}
               ></Form.Control>
 
-              <Form.Control
-                id='timeZone' type="text" style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }} placeholder="Time Zone" value={localStorage.getItem('timeZone')}
+              <Form.Control className="input-field mb-3"
+                id='timeZone' type="text" style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }} placeholder="Time Zone" value={emptyTimeZone}
               ></Form.Control>
 
               {/* Ett försök till att spara user input på onClick */}
-              <Button type="button" style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }} class="btn btn-primary btn-lg"> + Submit </Button>
-              <Button type="button" style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }} class="btn btn-primary btn-lg"> Clear </Button>
+              <Button className="" type="button" style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }} class="btn btn-primary btn-lg"> + Submit </Button>
+              <Button className="" type="button" onClick={() => setEmptyCity(() => "")} style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }} class="btn btn-primary btn-lg"> Clear </Button>
             </div>
           </Card>
         </Col>
         <Col>
-          <Card>
-            <div className="input-field mb-3">
+        </Col>
+        <Col>
 
-
-              <Form.Control
-                id='cityName' type="text" placeholder="City" value={localStorage.getItem('cityName')}
-              ></Form.Control>
-
-              <Form.Control
-                id='timeZone' type="text" placeholder="Time Zone" value={localStorage.getItem('timeZone')}
-              ></Form.Control>
-
-              {/* Ett försök till att spara user input på onClick */}
-              <Button onClick={clickEvent, setZone, setownCity} variant="primary"> Add to list</Button>
-            </div>
-          </Card>
         </Col>
 
       </Row>
