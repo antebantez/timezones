@@ -1,7 +1,7 @@
-import React {useState, useEffect} from 'react'
-import PropTypes from 'prop-types'
-import classes from "/public/Footer.module.css";
-import { useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
+import FooterCSS from '../../public/Footer.module.css';
+
 
 function Fader(props) {
   return (
