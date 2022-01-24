@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import QuotesData from './quotes.json'
+import QuotesData from '../../public/json/quotes.json'
 
 
 

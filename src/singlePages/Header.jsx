@@ -8,7 +8,7 @@ export default function Header() {
   <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
         <Col>
-          <Navbar.Brand className="head-title" href="/">Time-Zones</Navbar.Brand>
+          <Navbar.Brand className="head-title" href="/">React TimeZone</Navbar.Brand>
         </Col>
         <Col>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -16,7 +16,7 @@ export default function Header() {
           <Nav>
             <Link className="head-link" to="/">HOME</Link>
             <Link className="head-link" to="/cities">CITIES </Link>
-            <Link className="head-link" to="/my-time">MY-TIME</Link>
+            <Link className="head-link" to="/my-time">MY TIME</Link>
           </Nav>
           </Navbar.Collapse>
           </Col>

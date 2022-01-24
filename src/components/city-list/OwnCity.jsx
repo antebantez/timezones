@@ -40,6 +40,7 @@ export default function OwnCity() {
           </Card>
         </Col>
         <Col>
+          {/* Sajas del! :D */}
         </Col>
         <Col>
 
