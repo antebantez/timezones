@@ -24,3 +24,12 @@ h3 {
   font-family: "Libre Baskerville", sans-serif;
   color: rgb(179, 179, 179);
 }
+
+.fader-in {
+  transition: opacity 1s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: 1s ease;
+}
