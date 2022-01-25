@@ -23,12 +23,13 @@
 .timeZone {
   background-color: rgba(85, 84, 84, 0.39);
   border-radius: 10px;
+  height: 90px;
 }
 
 .timeZoneText {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .flagImage {
