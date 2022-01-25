@@ -4,7 +4,7 @@ import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import { Row, Card, Col } from "../utilities/components-bootstrap";
 
-export default function Cities() {
+export default function HomePage() {
   return (
     <Card>
       <Row>

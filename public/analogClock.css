@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.react-clock .react-clock__face {
+  border: 1px solid rgb(233, 233, 233);
+}
+
+.react-clock .react-clock__hand__body {
+  background-color: rgb(255, 255, 255);
+}
+
+.react-clock .react-clock__mark__body {
+  background-color: rgb(255, 255, 255);
+}
+
+.react-clock .react-clock__second-hand__body {
+  background-color: rgb(255, 0, 0);
+}
+
+.react-calendar {
+  border-radius: 10px;
+}
