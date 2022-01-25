@@ -1,3 +1,38 @@
 .cityDetails {
   color: white;
 }
+
+.backToList {
+  width: 90px;
+  background-color: rgba(85, 84, 84, 0.39);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.backToList:hover {
+ background-color: rgba(73, 73, 73, 0.671);
+}
+
+.row {
+  padding: 20px;
+}
+
+.timeZone {
+  background-color: rgba(85, 84, 84, 0.39);
+  border-radius: 10px;
+}
+
+.timeZoneText {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+.flagImage {
+  width: 25px;
+  margin: 15px;
+  margin-left: 0;
+}
