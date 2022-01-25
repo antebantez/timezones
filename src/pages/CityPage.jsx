@@ -10,7 +10,7 @@ export default function CityPage(props) {
     <div key={id} className={classes.cityDetails}>
       <Row className={classes.row}>
         <Col>
-          <h1>{city}</h1>
+          <h1 className={classes.cityName}>{city}</h1>
           <h5 className={classes.country}>
             <img className={classes.flagImage} src={flagImage} />
             {country}
