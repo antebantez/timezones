@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import QuotesData from '../../public/json/quotes.json'
 
 let quote = QuotesData[Math.floor(Math.random() * (QuotesData.length - 1))].quote;
@@ -15,7 +15,8 @@ export default function quotes() {
   const [isHidden, setIsHidden] = useState(false);
 
   useEffect(() => {
-    const interval = setInterval(toggleHidden, 20000, setIsHidden);
+    const interval = setInterval(toggleHidden, 10000, setIsHidden);
+    return () => clearInterval(interval);
   }, []);
 
   return (
