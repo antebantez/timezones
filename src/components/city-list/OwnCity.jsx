@@ -60,11 +60,12 @@ export default function OwnCity(props) {
             required
             minLength={2}
            maxLength={10}
-          style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }}
+          style={{ background: "rgba(190, 190, 190, 0.3)", border: "none" }}
           />
         </Form.Group>
-        <Form.Group className="mb-3" >
-          <Form.Select name="timezone" onChange={updateFormValue} style={{ background: "rgba(196, 196, 196, 0.3)", border: "none" }} required >
+                <Form.Group className="mb-3" >
+                  <Form.Label htmlFor="disabledSelect">Select UTC</Form.Label>
+          <Form.Select name="timezone" onChange={updateFormValue} style={{ background: "rgba(190, 190, 190, 0.3)", border: "none" }} required >
                   <option value="" hidden  defaultValue >
                     
              Zone

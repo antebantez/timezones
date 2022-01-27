@@ -9,7 +9,7 @@ export default function MissingPage() {
 
   return (
     <>
-      <Card>
+      <Card className = "standardCard">
         <Row>
           <h1>404</h1>
         </Row>
