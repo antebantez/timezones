@@ -1,4 +1,4 @@
-/*import { useEffect } from "react";
+import { useEffect } from "react";
 
 
 export default function GetLocalTime(props) {
@@ -41,4 +41,4 @@ export default function GetLocalTime(props) {
     </>
   );
 }
-*/
+
