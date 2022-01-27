@@ -40,10 +40,12 @@ export default function OwnCity(props) {
   const clearForm = city.length > 0;
   return (
     
-    <Container>
+    
+    <Container className="MyTime">
       <Row>
         <Col>
-        <Card className='p-4'>
+          <Card className='p-3'>
+            <h3 className='FavoriteText'>Creat Your Own Time:</h3>
     <div className="input-field mb-3">
       <form onSubmit={submitForm}>
         <Form.Group className="mb-3">

@@ -26,10 +26,10 @@ function MyTime() {
         
         
         <AddCity setAndSaveItems={setAndSaveItems} stateList={stateList} />
-        <Container>
+        <Container className="MyTime">
           <Row >
             <Col >
-         <Card className='p-4'>
+         <Card className='p-3'>
                 <div className="favoriteList">
                  
                   

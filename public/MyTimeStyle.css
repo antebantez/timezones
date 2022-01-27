@@ -1,5 +1,6 @@
 .favoriteSite {
-  margin: 0.1rem;
+  margin: 0;
+  margin-bottom: 4.9rem;
   padding: 1rem 2rem;
   text-align: center;
   
@@ -37,7 +38,7 @@ p{
 .content-city{
   padding: none;
 }
-.p-4
+.p-3
 {
    display:flex !important;
   margin: 2rem auto !important;
@@ -46,7 +47,8 @@ p{
   border-radius: 20px !important;
   
   
-  
-
-  
 }
+.FavoriteText{
+  color: white !important;
+}
+

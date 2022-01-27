@@ -14,11 +14,14 @@ export default function FavoriteList(props) {
 
   return (
     <>
+      <h3 className='FavoriteText'>Your Choices:</h3>
       {utc && (
 
         
         <div className="favoriteCity" style={background}>
+          
           <div className="content-city">
+       
             <p>{city}             </p>
             <GetLocalTime offset={utc} settime={settime} />
           </div>
