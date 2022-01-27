@@ -6,7 +6,7 @@ import { Row, Card, Col } from "../utilities/components-bootstrap";
 
 export default function HomePage() {
   return (
-    <Card>
+    <Card className= "standardCard">
       <Row>
         <Col xl={1} lg={1} md={1} sm={1} xs={1}></Col>
         <Col>

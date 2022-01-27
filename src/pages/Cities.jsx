@@ -33,7 +33,7 @@ export default function Cities() {
   return (
     <>
       <div className={classes.cardCities}>
-        <Card className={classes.citiesCard} style={{ width: "60rem" }}>
+        <Card className={classes.citiesCard + " standardCard "}  style={{ width: "60rem" }}>
           {/* Shows the list of available cities */}
           <Table borderless responsive="md">
             <tbody>
