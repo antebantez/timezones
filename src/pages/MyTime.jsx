@@ -29,7 +29,8 @@ function MyTime() {
         <Container className="MyTime">
           <Row >
             <Col >
-         <Card className='p-3'>
+              <Card className='p-3'>
+                <h3 className='FavoriteText'>Your Choices:</h3>
                 <div className="favoriteList">
                  
                   

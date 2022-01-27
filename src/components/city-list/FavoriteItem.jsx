@@ -14,10 +14,9 @@ export default function FavoriteList(props) {
 
   return (
     <>
-      <h3 className='FavoriteText'>Your Choices:</h3>
+      
       {utc && (
 
-        
         <div className="favoriteCity" style={background}>
           
           <div className="content-city">
