@@ -1,4 +1,4 @@
-/*import FavoriteItem from "./FavoriteItem";
+import FavoriteItem from "./FavoriteItem";
 
 
 export default function FavoriteList(props) {
@@ -23,6 +23,6 @@ export default function FavoriteList(props) {
     </>
   }
   
-  }*/
+  }
 
 
