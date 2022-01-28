@@ -21,7 +21,7 @@ export default function RemoveButton(props) {
     <div className="RemoveButton">
     <button
         className="btn-primary btn-m"
-        style={{ background:"rgba(0, 1, 0, 0.500)"  }}
+        style={{border:"transparent", background:"rgba(0, 1, 0, 0.500)"  }}
         
       onClick={() => handleDelete(buttonId)}
     >

@@ -110,7 +110,7 @@ export default function OwnCity(props) {
           </Form.Select>
               </Form.Group>
               
-        <Button type="submit" style={{ background: "rgba(196, 196, 196, 0.3)", border: "auto" }} value="Add" className=" btn-primary btn-lg">
+        <Button type="submit" style={{ background: "rgba(196, 196, 196, 0.3)", border: "transparent" }} value="Add" className=" btn-primary btn-lg">
           Submit{" "}
         </Button>
         {clearForm && (
