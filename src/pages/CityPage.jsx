@@ -1,10 +1,28 @@
 import classes from "/public/CityPage.module.css";
 
+import { useEffect, useState } from "react";
+
 import { Row, Col, Card } from "../utilities/components-bootstrap";
+
+function calcTime(offset) {
+  let b = new Date();
+  let utc = b.getTime() + b.getTimezoneOffset() * 60000;
+  let nd = new Date(utc + 3600000 * offset);
+  return nd.toLocaleTimeString();
+
+}
 
 export default function CityPage(props) {
   let { list, goToCityList } = props;
   let { id, city, country, UTC, time_zone, facts, image, flagImage } = list;
+
+  let cityTime = calcTime(UTC);
+
+  const [time, settime] = useState();
+
+  useEffect(() => {
+    setInterval(() => settime(cityTime), 800);
+  });
 
   return (
     <div key={id} className={classes.cityDetails}>
@@ -18,9 +36,7 @@ export default function CityPage(props) {
         </Col>
         <Col className={classes.timeZone}>
           <div>
-            <p className={classes.timeZoneText}>
-              {time_zone} (UTC {UTC})
-            </p>
+            <p className={classes.timeZoneText}>{cityTime}</p>
           </div>
         </Col>
       </Row>
