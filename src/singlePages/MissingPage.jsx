@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Card, Button, Row } from "../utilities/components-bootstrap";
+import { Card, Row, Col } from "../utilities/components-bootstrap";
 
 export default function MissingPage() {
   let navigate = useNavigate();
@@ -9,17 +9,18 @@ export default function MissingPage() {
 
   return (
     <>
-      <Card className = "standardCard">
-        <Row>
-          <h1>404</h1>
-        </Row>
-        <Row>
-          <h2>That page doesn't exist!</h2>
-        </Row>
-        <Row>
-          {/* Function på kanpp kvar att skapa */}
-          <Button onClick={handleClick}>Back to home page</Button>
-        </Row>
+      <Card className="standardCard">
+        <Col lg={{offset: 2, span: 8}} className="text-center">
+        <Row className="mt-3">
+            <h1>404</h1>
+          </Row>
+          <Row className="mt-3">
+            <h1>That page doesn't exist!</h1>
+          </Row>
+          <Row className="mt-3">
+            <button onClick={handleClick} className="w-100 h3 rounded-pill">Back to Home Page</button>
+          </Row>
+        </Col>
       </Card>
     </>
   );
