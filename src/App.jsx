@@ -8,7 +8,6 @@ import './sass/main.scss';
 import Header from "./singlePages/Header";
 import HomePage from "./pages/HomePage";
 import Cities from "./pages/Cities";
-import CityPage from "./pages/CityPage";
 import MyTime from "./pages/MyTime";
 import MissingPage from "./singlePages/MissingPage";
 import Footer from "./singlePages/Footer";
@@ -23,7 +22,6 @@ export default function App() {
           <Route path="/cities" element={<Cities />} />
           <Route path="/my-time" element={<MyTime />} />
           <Route path="/*" element={<MissingPage />} />
-          <Route path="/cities/*" element={<MissingPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
