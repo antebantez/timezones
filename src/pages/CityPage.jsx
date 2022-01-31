@@ -16,20 +16,9 @@ function calcTime(cityUTC) {
   let utc = d.getTime() + d.getTimezoneOffset() * 60000;
   let nd = new Date(utc + 3600000 * cityUTC);
 
-  // Gives dayTime variable a String
-  // Depending on day time it gives either AM or PM
-  let hour = nd.getHours();
-  if (hour <= 11) {
-    dayTime = "AM";
-  } else {
-    dayTime = "PM";
-  }
 
   return nd.toLocaleTimeString();
 }
-
-// Variable that will hold either the AM or PM string
-let dayTime = "";
 
 export default function CityPage(props) {
   let { list, goToCityList } = props;
@@ -62,7 +51,6 @@ export default function CityPage(props) {
           <div>
             <div className={classes.digitalClock}>
               <h5 className={classes.timeZoneText}>{cityTime}</h5>
-              <h5 className={classes.dayTime}>{dayTime}</h5>
             </div>
             <p>TimeZone: {time_zone}</p>
           </div>
