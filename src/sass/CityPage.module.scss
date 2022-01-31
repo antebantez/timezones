@@ -31,7 +31,6 @@
 .timeZoneText {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 20px;
 }
 
 .flagImage {
@@ -49,4 +48,13 @@
   padding: 10px;
   margin-right: 5px;
   border-radius: 20px;
+}
+
+.digitalClock {
+  display: flex;
+  padding-top: 20px;
+}
+
+.dayTime {
+  margin-left: 5px;
 }
