@@ -3,6 +3,7 @@ import classes from "/public/CityPage.module.css";
 import { useEffect, useState } from "react";
 
 import { Row, Col, Card } from "../utilities/components-bootstrap";
+import Clock from "react-clock";
 
 function calcTime(offset) {
   let b = new Date();
@@ -35,8 +36,12 @@ export default function CityPage(props) {
           </h5>
         </Col>
         <Col className={classes.timeZone}>
+          <div className={classes.analogClock}>
+            <Clock value={cityTime} size={100} renderNumbers={true} />
+          </div>
           <div>
-            <p className={classes.timeZoneText}>{cityTime}</p>
+            <h5 className={classes.timeZoneText}>{cityTime}</h5>
+            <p>timeZone: {time_zone}</p>
           </div>
         </Col>
       </Row>

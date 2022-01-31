@@ -23,7 +23,9 @@
 .timeZone {
   background-color: rgba(85, 84, 84, 0.39);
   border-radius: 10px;
-  height: 90px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .timeZoneText {
@@ -40,4 +42,11 @@
 
 .cityName {
   text-transform: uppercase;
+}
+
+.analogClock {
+  background-color: rgba(0, 0, 0, 0.384);
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 20px;
 }
