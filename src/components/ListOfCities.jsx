@@ -1,5 +1,5 @@
 // Import for CSS file
-import classes from "/public/Cities.module.css";
+import classes from "../sass/Cities.module.scss";
 
 // Imports for bootstrap
 import { Card } from "../utilities/components-bootstrap";

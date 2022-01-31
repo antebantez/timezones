@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 // Import for CSS file
-import classes from "/public/Cities.module.css";
+import classes from "../sass/Cities.module.scss";
 
 // Import for other files
 import ListOfCities from "../components/ListOfCities";

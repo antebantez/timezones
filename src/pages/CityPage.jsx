@@ -1,4 +1,4 @@
-import classes from "/public/CityPage.module.css";
+import classes from "../sass/CityPage.module.scss";
 
 import { useEffect, useState } from "react";
 
