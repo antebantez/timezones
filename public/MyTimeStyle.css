@@ -12,6 +12,8 @@
   backdrop-filter: blur(80px);
   font-size: 28px;
   text-shadow: rgb(24, 23, 23) 1px 0 10px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .content-city p {
@@ -25,7 +27,7 @@
   border-radius: 7px;
   display: block;
   width: auto;
-   
+   margin: 20px 0px;
   
 }
 

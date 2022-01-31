@@ -9,7 +9,7 @@ export default function FavoriteList(props) {
   let { utc, city, indexId, setAndSaveItems, stateList } = props;
 
   let background = {
-    backgroundImage: `url("https://source.unsplash.com/random/440x360/?${city}")`,
+    backgroundImage: `url("https://source.unsplash.com/random/800x360/?${city}")`,
   };
 
   return (
