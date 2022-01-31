@@ -6,12 +6,21 @@ import { Row, Col, Card } from "../utilities/components-bootstrap";
 import Clock from "react-clock";
 
 function calcTime(offset) {
-  let b = new Date();
-  let utc = b.getTime() + b.getTimezoneOffset() * 60000;
+  let d = new Date();
+  let utc = d.getTime() + d.getTimezoneOffset() * 60000;
   let nd = new Date(utc + 3600000 * offset);
-  return nd.toLocaleTimeString();
 
+  let hour = nd.getHours();
+  if (hour <= 11) {
+    dayTime = "AM";
+  } else {
+    dayTime = "PM";
+  }
+
+  return nd.toLocaleTimeString();
 }
+
+let dayTime = "";
 
 export default function CityPage(props) {
   let { list, goToCityList } = props;
@@ -40,7 +49,10 @@ export default function CityPage(props) {
             <Clock value={cityTime} size={100} renderNumbers={true} />
           </div>
           <div>
-            <h5 className={classes.timeZoneText}>{cityTime}</h5>
+            <div className={classes.digitalClock}>
+              <h5 className={classes.timeZoneText}>{cityTime}</h5>
+              <h5 className={classes.dayTime}>{dayTime}</h5>
+            </div>
             <p>TimeZone: {time_zone}</p>
           </div>
         </Col>
