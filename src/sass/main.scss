@@ -1,12 +1,18 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import './load-and-modified.scss';
+@import "./load-and-modified.scss";
 
 //style for body
-@import './body-styling.scss';
+@import "./body-styling.scss";
 
 //style for Card (main container with the content)
-@import './card-styling.scss';
+@import "./card-styling.scss";
 
 //style for header
-@import './header-styling.scss';
+@import "./header-styling.scss";
+
+//style for the homePage
+@import "./home-page.scss";
+
+//style fpr the analog clock
+@import "./analog-clock.scss";
