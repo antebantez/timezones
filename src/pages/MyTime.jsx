@@ -25,9 +25,12 @@ function MyTime() {
       <div className="favoriteSite">
         
         
-        <AddCity setAndSaveItems={setAndSaveItems} stateList={stateList} />
-        <Container className="MyTime">
+        
+        <Container className="MyTime mt-5">
           <Row >
+            <Col>
+              <AddCity setAndSaveItems={setAndSaveItems} stateList={stateList} />
+            </Col>
             <Col >
               <Card className='p-3'>
                 <h3 className='FavoriteText'>Your Choices:</h3>
