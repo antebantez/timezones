@@ -11,7 +11,7 @@ export default function HomePage() {
         <Row>
           <Col xl={1} lg={1} md={1} sm={2} xs={2} className="mb-2"></Col>
           <Col xl={5} lg={5} md={5} sm={10} xs={10} className="mb-2">
-            <AnalogClock />
+            <AnalogClock size={300}/>
           </Col>
           <Col xl={1} lg={1} md={1} sm={2} xs={1} className="mb-2"></Col>
           <Col xl={5} lg={5} md={5} sm={10} xs={11} className="mb-2">
