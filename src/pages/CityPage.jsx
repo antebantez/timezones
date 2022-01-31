@@ -41,7 +41,7 @@ export default function CityPage(props) {
           </div>
           <div>
             <h5 className={classes.timeZoneText}>{cityTime}</h5>
-            <p>timeZone: {time_zone}</p>
+            <p>TimeZone: {time_zone}</p>
           </div>
         </Col>
       </Row>
