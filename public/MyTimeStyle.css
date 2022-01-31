@@ -3,8 +3,6 @@
   margin-bottom: 4.9rem;
   padding: 1rem 2rem;
   text-align: center;
-  
-
 }
 
 .content-city {
@@ -18,7 +16,7 @@
 
 .content-city p {
   margin-top: 100%;
-  display:inline;
+  display: inline;
   padding: 0 4px 0 5px;
 }
 
@@ -27,31 +25,26 @@
   border-radius: 7px;
   display: block;
   width: auto;
-   margin: 20px 0px;
-  
+  margin: 20px 0px;
 }
 
-
-p{
+p {
   text-align: center;
- 
-
 }
-.content-city{
+.content-city {
   padding: none;
 }
-.p-3
-{
-   display:flex !important;
+.p-3 {
+  display: flex !important;
   margin: 2rem auto !important;
   background-color: rgba(0, 0, 0, 0.7) !important;
   border: 1px solid rgb(75, 75, 75) !important;
   border-radius: 20px !important;
-
-  
-  
 }
-.FavoriteText{
+.FavoriteText {
   color: white !important;
 }
 
+#ZoneColor {
+  color: white;
+}
