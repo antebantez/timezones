@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Clock from "react-clock";
 import "react-clock/dist/Clock.css";
 
-export default function AnalogClock() {
+export default function AnalogClock(props) {
   const [value, setValue] = useState(new Date());
 
   useEffect(() => {
@@ -13,5 +13,5 @@ export default function AnalogClock() {
     };
   }, []);
 
-  return <Clock value={value} size={300} renderNumbers={true} />;
+  return <Clock value={value} size={props.size} renderNumbers={true} />;
 }
