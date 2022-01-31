@@ -62,7 +62,7 @@ export default function CityPage(props) {
           <p>{facts}</p>
         </Col>
         <Col>
-          <Card.Img src={image} />
+          <Card.Img style={{minWidth: "10rem"}} src={image} />
         </Col>
       </Row>
 
