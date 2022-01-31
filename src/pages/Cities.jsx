@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-// Import for CSS file
+// Import for SCSS file
 import classes from "../sass/Cities.module.scss";
 
 // Import for other files

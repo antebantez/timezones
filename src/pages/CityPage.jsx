@@ -1,15 +1,23 @@
+// Import SCSS file
 import classes from "../sass/CityPage.module.scss";
 
+// Import hooks
 import { useEffect, useState } from "react";
 
+// Import Bootstrap components
 import { Row, Col, Card } from "../utilities/components-bootstrap";
+
+// Import Analog Clock
 import Clock from "react-clock";
 
-function calcTime(offset) {
+// Function calculates time for given city UTC (time zone)
+function calcTime(cityUTC) {
   let d = new Date();
   let utc = d.getTime() + d.getTimezoneOffset() * 60000;
-  let nd = new Date(utc + 3600000 * offset);
+  let nd = new Date(utc + 3600000 * cityUTC);
 
+  // Gives dayTime variable a String
+  // Depending on day time it gives either AM or PM
   let hour = nd.getHours();
   if (hour <= 11) {
     dayTime = "AM";
@@ -20,16 +28,18 @@ function calcTime(offset) {
   return nd.toLocaleTimeString();
 }
 
+// Variable that will hold either the AM or PM string
 let dayTime = "";
 
 export default function CityPage(props) {
   let { list, goToCityList } = props;
   let { id, city, country, UTC, time_zone, facts, image, flagImage } = list;
 
+  // Variable calls the calcTime Function with a parameter
   let cityTime = calcTime(UTC);
 
+  // This will keeps the time moving
   const [time, settime] = useState();
-
   useEffect(() => {
     setInterval(() => settime(cityTime), 800);
   });
@@ -46,6 +56,7 @@ export default function CityPage(props) {
         </Col>
         <Col className={classes.timeZone}>
           <div className={classes.analogClock}>
+            {/* Calls Clock from the import above */}
             <Clock value={cityTime} size={100} renderNumbers={true} />
           </div>
           <div>
@@ -69,6 +80,7 @@ export default function CityPage(props) {
 
       <Row className={classes.row}>
         <Col className={classes.BackButton}>
+          {/* When Button is clicked the user will return to the cities page */}
           <button
             className={classes.backToList}
             onClick={() => goToCityList(0)}

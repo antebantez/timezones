@@ -1,4 +1,4 @@
-// Import for CSS file
+// Import for SCSS file
 import classes from "../sass/Cities.module.scss";
 
 // Imports for bootstrap
