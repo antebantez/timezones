@@ -20,16 +20,19 @@ footer {
   width: 100%;
   backdrop-filter: blur(3px);
 }
-//css for font and fade in and out effect on quotes
+
+//css for font style and fade in and out effect on quotes
 .quote {
   opacity: 1;
   transition: opacity 2s;
   font-family: "Libre Baskerville", sans-serif;
   color: rgb(179, 179, 179);
+  cursor: none;
 }
 
 .hide {
   opacity: 0;
   font-family: "Libre Baskerville", sans-serif;
   color: rgb(179, 179, 179);
+  cursor: none;
 }
