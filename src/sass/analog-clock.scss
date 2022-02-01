@@ -1,7 +1,9 @@
-.react-clock{
+//centering clock more evenly because of small margin on the imported component
+.react-clock {
   margin-left: -15px;
 }
 
+//Overriding all of the colors in the node modules folder
 .react-clock .react-clock__face {
   border: 1px solid rgb(233, 233, 233);
 }

@@ -9,7 +9,7 @@ export default function Header() {
       <Navbar collapseOnSelect expand="lg" variant="dark">
         <Container>
           <Col>
-            <img src={Logo} height={"100vh"} />
+            <img className="logo" src={Logo}  />
             <Navbar.Brand className="head-title" href="/">
               &nbsp;Time Philosophers
             </Navbar.Brand>

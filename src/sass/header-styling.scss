@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400;1,700&family=Hind+Siliguri:wght@700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400;1,700&family=Hind+Siliguri:wght@700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100&display=swap");
 
 .navbar {
   background: rgb(0, 0, 0, 0.7);
   color: white;
   position: sticky;
   top: 0;
+  backdrop-filter: blur(3px);
 }
 
+// Added css to responsive title text
 .head-title {
-  font-size: 50px;
+  font-size: 2.5vmax;
+  width: 15%;
+  height: auto;
+  max-width: 300px;
 }
 
 .head-link {
@@ -20,4 +24,11 @@
 }
 .head-link:hover {
   color: white;
-} 
+}
+
+// Added css to responsive logo
+.logo {
+  width: 15%;
+  height: auto;
+  max-width: 15%;
+}

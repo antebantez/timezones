@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function Clock() {
   const [digitalClockState, setDigitalClockState] = useState();
-
+  //getting the local computer clock and updates it every second
   useEffect(() => {
     setInterval(() => {
       const date = new Date();
@@ -12,14 +12,17 @@ function Clock() {
 
   return (
     <div
+      //inline style for the digital clock on the homepage
       style={{
         fontSize: "5vw",
         fontWeight: "bold",
         margin: "40px",
-        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        //Test without dark solid background on digital clock
+        // backgroundColor: "rgba(0, 0, 0, 0.5)",
         borderRadius: "15px",
       }}
     >
+      {/*displaying the updating clock-state */}
       {digitalClockState}
     </div>
   );
