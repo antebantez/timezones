@@ -18,14 +18,18 @@
 
 .head-link {
   font-size: 20px;
-  padding: 0px 50px 0px 0px;
+  padding: 0px 0px 0px 0px; //fixed placement on diffrent screens
   text-decoration: none;
-  color: rgb(212, 197, 197);
-  //prevent "my time" to seperate in two rows
-  white-space: nowrap;
+  color: rgb(212, 197, 197);  
+  white-space: nowrap; //prevent "my time" to seperate in two rows
+  margin-left: 40%; //fixed placement on diffrent screens
 }
 .head-link:hover {
   color: white;
+}
+
+.burger {
+  margin-left: 40%;
 }
 
 // Added css to responsive logo
@@ -33,4 +37,5 @@
   width: 15%;
   height: auto;
   max-width: 15%;
+  cursor: pointer;
 }

@@ -9,13 +9,13 @@ export default function Header() {
       <Navbar collapseOnSelect expand="lg" variant="dark">
         <Container>
           <Col>
-            <img className="logo" src={Logo}  />
             <Navbar.Brand className="head-title" href="/">
+              <img className="logo"  src={Logo}  />
               &nbsp;Time Philosophers
             </Navbar.Brand>
           </Col>
           <Col>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Toggle className="burger" aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav>
                 <Link className="head-link" to="/">
