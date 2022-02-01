@@ -16,7 +16,6 @@ function calcTime(cityUTC) {
   let utc = d.getTime() + d.getTimezoneOffset() * 60000;
   let nd = new Date(utc + 3600000 * cityUTC);
 
-
   return nd.toLocaleTimeString();
 }
 
@@ -59,7 +58,9 @@ export default function CityPage(props) {
 
       <Row className={classes.row}>
         <Col>
-          <p>{facts}</p>
+          <hr />
+          <p className={classes.facts}>{facts}</p>
+          <hr />
         </Col>
         <Col>
           <Card.Img style={{minWidth: "10rem"}} src={image} />
