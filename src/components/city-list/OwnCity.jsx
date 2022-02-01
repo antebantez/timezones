@@ -53,7 +53,7 @@ export default function OwnCity(props) {
                 <Form.Group className="mb-3">
                   <Form.Control
                     type="text"
-                    name="City"
+                    name="city"
                     value={city}
                     onChange={updateFormValue}
                     placeholder="City"
