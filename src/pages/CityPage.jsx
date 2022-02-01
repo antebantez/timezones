@@ -58,7 +58,9 @@ export default function CityPage(props) {
 
       <Row className={classes.row}>
         <Col>
-          <p>{facts}</p>
+          <hr />
+          <p className={classes.facts}>{facts}</p>
+          <hr />
         </Col>
         <Col>
           <Card.Img style={{minWidth: "10rem"}} src={image} />
