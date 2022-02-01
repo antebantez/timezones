@@ -21,6 +21,8 @@
   padding: 0px 50px 0px 0px;
   text-decoration: none;
   color: rgb(212, 197, 197);
+  //prevent "my time" to seperate in two rows
+  white-space: nowrap;
 }
 .head-link:hover {
   color: white;
