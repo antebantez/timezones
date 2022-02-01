@@ -46,14 +46,14 @@ export default function OwnCity(props) {
     <Container className="MyTime">
       <Row>
         <Col>
-          <Card className="p-3">
+          <Card className="standardCard p-3">
             <h3 className="FavoriteText">Create Your Own Time:</h3>
             <div className="input-field mb-3">
               <form onSubmit={submitForm}>
                 <Form.Group className="mb-3">
                   <Form.Control
                     type="text"
-                    name="City"
+                    name="city"
                     value={city}
                     onChange={updateFormValue}
                     placeholder="City"
@@ -135,7 +135,7 @@ export default function OwnCity(props) {
                     value="Add"
                     style={{
                       background: "rgba(196, 196, 196, 0.3)",
-                      border: "auto",
+                      border: "none",
                     }}
                     className="btn-primary btn-lg"
                     onClick={clearForms}

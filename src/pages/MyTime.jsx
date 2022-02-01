@@ -3,8 +3,7 @@ import { useState } from "react";
 import store from "../utilities/localStore";
 import AddCity from "../components/city-list/AddCity";
 import FavoriteList from "../components/city-list/FavoriteList";
-//import OwnCity from '../components/city-list/OwnCity'
-import { Card, Col, Container, Form, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 
 function MyTime() {
   store.list = store.list || [];
@@ -18,13 +17,13 @@ function MyTime() {
 
   return (
     <div className="favoriteSite">
-      <Container className="MyTime mt-5">
+      <Container className="MyTime">
         <Row>
           <Col xl={6} lg={6} md={12} sm={12} xs={12}>
             <AddCity setAndSaveItems={setAndSaveItems} stateList={stateList} />
           </Col>
           <Col xl={6} lg={6} md={12} sm={12} xs={12}>
-            <Card className="p-3">
+            <Card className="standardCard p-3">
               <h3 className="FavoriteText">Your Choices:</h3>
               <div className="favoriteList">
                 <FavoriteList
