@@ -13,7 +13,7 @@ export default function OwnCity(props) {
   let { setAndSaveItems, stateList } = props;
 
   let [formValues, changeFormValues] = useStates({
-    id: "5053",
+    id: "",
     city: "",
     timezone: "",
     image: "none.",
@@ -33,9 +33,10 @@ export default function OwnCity(props) {
   }
 
   function submitForm(event) {
-    // prevent the default behavior of
-    // the browser (don't reload on submit)
     event.preventDefault();
+    //Added key so that every city has their own id
+    let localId = 100 + stateList.length;
+    formValues.id = localId.toString();
 
     setAndSaveItems([...stateList, formValues]);
   }
