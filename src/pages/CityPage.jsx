@@ -16,7 +16,6 @@ function calcTime(cityUTC) {
   let utc = d.getTime() + d.getTimezoneOffset() * 60000;
   let nd = new Date(utc + 3600000 * cityUTC);
 
-
   return nd.toLocaleTimeString();
 }
 
