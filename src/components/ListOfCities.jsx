@@ -1,9 +1,6 @@
 // Import for SCSS file
 import classes from "../sass/Cities.module.scss";
 
-// Imports for bootstrap
-import { Card } from "../utilities/components-bootstrap";
-
 export default function ListOfCities(props) {
   let { list, goToDetail } = props;
   let { id, city, flagImage } = list;
