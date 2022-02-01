@@ -5,10 +5,15 @@
   color: white;
   position: sticky;
   top: 0;
+  backdrop-filter: blur(3px);
 }
 
+// Added css to responsive title text
 .head-title {
-  font-size: 2.5rem;
+  font-size: 2.5vmax;
+  width: 15%;
+  height: auto;
+  max-width: 300px;
 }
 
 .head-link {
@@ -19,4 +24,11 @@
 }
 .head-link:hover {
   color: white;
+}
+
+// Added css to responsive logo
+.logo {
+  width: 15%;
+  height: auto;
+  max-width: 300px;
 }

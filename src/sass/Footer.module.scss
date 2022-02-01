@@ -18,18 +18,18 @@ footer {
   position: fixed;
   bottom: 0rem;
   width: 100%;
+  backdrop-filter: blur(3px);
 }
-
-h3 {
+//css for font and fade in and out effect on quotes
+.quote {
+  opacity: 1;
+  transition: opacity 2s;
   font-family: "Libre Baskerville", sans-serif;
   color: rgb(179, 179, 179);
 }
 
-.quote {
-  opacity: 1;
-  transition: opacity 2s;
-}
-
 .hide {
   opacity: 0;
+  font-family: "Libre Baskerville", sans-serif;
+  color: rgb(179, 179, 179);
 }

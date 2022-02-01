@@ -17,7 +17,8 @@ function Clock() {
         fontSize: "5vw",
         fontWeight: "bold",
         margin: "40px",
-        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        //Test without dark solid background on digital clock
+        // backgroundColor: "rgba(0, 0, 0, 0.5)",
         borderRadius: "15px",
       }}
     >
