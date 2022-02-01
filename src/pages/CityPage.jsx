@@ -66,7 +66,7 @@ export default function CityPage(props) {
         </Col>
       </Row>
 
-      <Row className={classes.row}>
+      <Row className={classes.ButtonRow}>
         <Col className={classes.BackButton}>
           {/* When Button is clicked the user will return to the cities page */}
           <button
