@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+//Add removebutton for user can remove any city.
+// the city removes from the site and localStorage.
 
 export default function RemoveButton(props) {
   const [remove, removeCity] = useState([]);

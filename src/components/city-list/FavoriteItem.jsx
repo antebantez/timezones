@@ -1,7 +1,8 @@
 import { useState } from "react";
 import GetLocalTime from "./GetLocalTime";
 import RemoveButton from "./RemoveButton";
-
+//Add random background for different cities.
+//shows time from GetLocalTime and remove from RemoveButton 
 
 
 export default function FavoriteList(props) {
