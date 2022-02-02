@@ -24,7 +24,7 @@ function MyTime() {
           </Col>
           <Col xl={6} lg={6} md={12} sm={12} xs={12}>
             <Card className="standardCard p-3">
-              <h3 className="FavoriteText">Your Choices:</h3>
+              <h3 className="FavoriteText">Your City/TimeZone:</h3>
               <div className="favoriteList">
                 <FavoriteList
                   setAndSaveItems={setAndSaveItems}

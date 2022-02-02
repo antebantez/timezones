@@ -1,0 +1,17 @@
+form .form-control::-moz-placeholder {
+  color: white;
+}
+form .form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+form .form-control:-ms-input-placeholder {
+  color: white;
+}
+form .form-control:placeholder {
+  color: white;
+}
+
+form .form-select {
+  background-color: rgba(190, 190, 190, 0.3);
+}

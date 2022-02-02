@@ -39,6 +39,7 @@ export default function OwnCity(props) {
     formValues.id = localId.toString();
 
     setAndSaveItems([...stateList, formValues]);
+    clearForms();
   }
 
   let { city, timezone } = formValues;
@@ -48,7 +49,7 @@ export default function OwnCity(props) {
       <Row>
         <Col>
           <Card className="standardCard p-3">
-            <h3 className="FavoriteText">Create Your Own Time:</h3>
+            <h3 className="FavoriteText">Add your own city:</h3>
             <div className="input-field mb-3">
               <form onSubmit={submitForm}>
                 <Form.Group className="mb-3">
@@ -61,8 +62,9 @@ export default function OwnCity(props) {
                     required
                     minLength={2}
                     style={{
-                      background: "rgba(190, 190, 190, 0.3)",
+                      background: "rgba(75, 75, 75, 0.65)",
                       border: "none",
+                      color: "white",
                     }}
                   />
                 </Form.Group>
@@ -72,14 +74,16 @@ export default function OwnCity(props) {
                     name="timezone"
                     onChange={updateFormValue}
                     style={{
-                      background: "rgba(190, 190, 190, 0.3)",
+                      background: "rgba(75, 75, 75, 0.65)",
                       border: "none",
+                      color: "white",
                     }}
                     required
                   >
                     <option value="" hidden defaultValue id="ZoneColor">
                       Zone
                     </option>
+
                     <option value={14}>UTC+14:00</option>
                     <option value={13}>UTC+13:00</option>
                     <option value={12.75}>UTC+12:45</option>
@@ -123,27 +127,17 @@ export default function OwnCity(props) {
                 <Button
                   type="submit"
                   style={{
-                    background: "rgba(196, 196, 196, 0.3)",
+                    background: "rgba(75, 75, 75, 0.65)",
                     border: "transparent",
                   }}
                   value="Add"
                   className=" btn-primary btn-lg"
                 >
-                  Submit{" "}
+                  Submit
+                  <option value="" hidden defaultValue id="ZoneColor">
+                    Zone
+                  </option>
                 </Button>
-                {clearForm && (
-                  <Button
-                    value="Add"
-                    style={{
-                      background: "rgba(196, 196, 196, 0.3)",
-                      border: "none",
-                    }}
-                    className="btn-primary btn-lg"
-                    onClick={clearForms}
-                  >
-                    Clear{" "}
-                  </Button>
-                )}
               </form>
             </div>
           </Card>
