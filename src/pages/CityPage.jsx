@@ -63,7 +63,10 @@ export default function CityPage(props) {
           <hr />
         </Col>
         <Col>
-          <Card.Img style={{minWidth: "10rem"}} src={image} />
+          <Card.Img
+            style={{ minWidth: "10rem", borderRadius: "20px" }}
+            src={image}
+          />
         </Col>
       </Row>
 
