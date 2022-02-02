@@ -13,7 +13,7 @@
 }
 
 .backToList:hover {
- background-color: rgba(73, 73, 73, 0.671);
+  background-color: rgba(73, 73, 73, 0.671);
 }
 
 .ButtonRow {
@@ -67,9 +67,19 @@
   padding-bottom: 10px;
 }
 
-hr {
+.hrTop {
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  padding: 2px;
+  background: linear-gradient(to right, grey, white);
+  border-radius: 25px;
+  width: 60%;
+}
+
+.hrBottom {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
   padding: 2px;
   background: linear-gradient(to right, grey, white);
   border-radius: 25px;
