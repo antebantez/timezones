@@ -6,6 +6,7 @@ import FavoriteList from "../components/city-list/FavoriteList";
 import { Card, Col, Container, Row } from "react-bootstrap";
 
 function MyTime() {
+  //saving in localStorage
   store.list = store.list || [];
   store.save();
   const [stateList, setStateList] = useState(store.list);

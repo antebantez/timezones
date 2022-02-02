@@ -3,9 +3,10 @@ import FavoriteItem from "./FavoriteItem";
 export default function FavoriteList(props) {
   let { stateList, setAndSaveItems } = props;
 
+ // state list from localStorage.
+ // add relativ index location for RemoveButton.
   if (stateList != []) {
-    // state list from localstorage.
-    // Also add relativ index location for remove button.
+   
     const itemRows = [];
     for (let item of stateList) {
       const row = (

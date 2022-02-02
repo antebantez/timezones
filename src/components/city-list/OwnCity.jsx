@@ -1,5 +1,4 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import useStates from "../../utilities/useStates";
 import Form from "react-bootstrap/Form";
 import {
@@ -129,6 +128,7 @@ export default function OwnCity(props) {
                   style={{
                     background: "rgba(75, 75, 75, 0.65)",
                     border: "transparent",
+                    marginRight: "5px",
                   }}
                   value="Add"
                   className=" btn-primary btn-lg"
