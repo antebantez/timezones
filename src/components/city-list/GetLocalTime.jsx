@@ -3,7 +3,7 @@ import { useEffect } from "react";
  // create Date object for having current location
  // convert to milliseconds, add local time zone offset and get UTC time in milliseconds
  // time offset for the city.
- // create new Date object for a the different timezone by using supplied its GMT offset.
+ // create new Date object for a the different timezone by using GMT timeOffset.
  // updates the time by inteval every second.
 
 export default function GetLocalTime(props) {
@@ -17,7 +17,7 @@ export default function GetLocalTime(props) {
   
   let timeOffset = offset;
 
-  
+
   let time = new Date(utcTime + 3600000 * timeOffset);
   let hours = time.getHours();
   if (hours < 10) {
