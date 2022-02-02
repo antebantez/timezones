@@ -1,6 +1,6 @@
 import OwnCity from "./OwnCity";
 
-
+// Saving in Owncity
 export default function AddCity(props) {
   let { stateList, setAndSaveItems, } = props;
 
