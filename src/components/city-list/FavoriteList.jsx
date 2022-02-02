@@ -5,7 +5,7 @@ export default function FavoriteList(props) {
 
   if (stateList != []) {
     // state list from localstorage.
-    // Also add relativ index location for remove button.
+    // add index location for remove button.
     const itemRows = [];
     for (let item of stateList) {
       const row = (
