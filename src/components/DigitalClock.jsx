@@ -4,10 +4,13 @@ function Clock() {
   const [digitalClockState, setDigitalClockState] = useState();
   //getting the local computer clock and updates it every second
   useEffect(() => {
-    setInterval(() => {
+    const interval = setInterval(() => {
       const date = new Date();
       setDigitalClockState(date.toLocaleTimeString());
     }, 1000);
+    return () => {
+      clearInterval(interval);
+    };
   }, []);
 
   return (
