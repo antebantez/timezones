@@ -29,7 +29,11 @@ export default function CityPage(props) {
   // This will keeps the time moving
   const [time, settime] = useState();
   useEffect(() => {
-    setInterval(() => settime(cityTime), 1000);
+    const interval = setInterval(() => settime(cityTime), 1000);
+
+    return () => {
+      clearInterval(interval);
+    };
   });
 
   return (
