@@ -10,7 +10,7 @@ export default function AnalogClock(props) {
   //Making the analog clock update every second
   useEffect(() => {
     const interval = setInterval(() => setValue(new Date()), 1000);
-
+    //returning clearInterval function to get rid of the memory leak from the analog clock
     return () => {
       clearInterval(interval);
     };
