@@ -3,7 +3,8 @@ import AnalogClock from "../components/AnalogClock";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import { Container, Row, Card, Col } from "../utilities/components-bootstrap";
-
+//Calling components that will render the content of the HomePage
+//Using bootstrap columns to make it responsive
 export default function HomePage() {
   return (
     <Container>

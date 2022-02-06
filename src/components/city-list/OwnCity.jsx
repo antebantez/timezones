@@ -9,6 +9,7 @@ import {
   Button,
   Container,
 } from "../../utilities/components-bootstrap";
+
 export default function OwnCity(props) {
   let { setAndSaveItems, stateList } = props;
 
@@ -19,12 +20,12 @@ export default function OwnCity(props) {
     image: "none.",
     imageBgr: "None",
   });
-
+  // function to uppdate form values
   function updateFormValue(event) {
     let { name, value } = event.target;
     changeFormValues({ [name]: value });
   }
-
+  //  Function for clear forms and clear on click
   function clearForms() {
     changeFormValues({
       utc: "",
@@ -48,6 +49,7 @@ export default function OwnCity(props) {
     <Container className="MyTime">
       <Row>
         <Col>
+          {/* Card field for input  */}
           <Card className="standardCard p-3">
             <h3 className="FavoriteText">Add your own city:</h3>
             <div className="input-field mb-3">
@@ -68,6 +70,7 @@ export default function OwnCity(props) {
                     }}
                   />
                 </Form.Group>
+                {/* Dropdown */}
                 <Form.Group className="mb-3">
                   <Form.Label htmlFor="disabledSelect">Select UTC</Form.Label>
                   <Form.Select
@@ -83,7 +86,7 @@ export default function OwnCity(props) {
                     <option value="" hidden defaultValue id="ZoneColor">
                       Zone
                     </option>
-
+                    {/* Optiones for dropdown */}
                     <option value={14}>UTC+14:00</option>
                     <option value={13}>UTC+13:00</option>
                     <option value={12.75}>UTC+12:45</option>
@@ -123,7 +126,7 @@ export default function OwnCity(props) {
                     <option value={-12}>UTC-12:00</option>
                   </Form.Select>
                 </Form.Group>
-
+                {/* Simple button and submit function */}
                 <Button
                   type="submit"
                   style={{
@@ -134,6 +137,7 @@ export default function OwnCity(props) {
                   className=" btn-primary btn-lg"
                 >
                   Submit
+                  {/* when submitted to clear input field */}
                   <option value="" hidden defaultValue id="ZoneColor">
                     Zone
                   </option>

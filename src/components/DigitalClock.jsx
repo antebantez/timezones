@@ -8,6 +8,8 @@ function Clock() {
       const date = new Date();
       setDigitalClockState(date.toLocaleTimeString());
     }, 1000);
+    //returning the clearinterval function to get
+    // rid of memory leak from the digital clock
     return () => {
       clearInterval(interval);
     };
@@ -20,8 +22,6 @@ function Clock() {
         fontSize: "5vw",
         fontWeight: "bold",
         margin: "40px",
-        //Test without dark solid background on digital clock
-        // backgroundColor: "rgba(0, 0, 0, 0.5)",
         borderRadius: "15px",
       }}
     >
